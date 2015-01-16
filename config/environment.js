@@ -3,6 +3,8 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'zell',
+    podModulePrefix: 'zell/pods',
+    usePodsByDefault: true,
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
