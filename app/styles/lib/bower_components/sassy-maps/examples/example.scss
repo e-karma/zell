@@ -9,14 +9,14 @@ $string: inspect($map);
 $map: map-set($map, 'key2', 'value3');
 // @debug $map;
 
-@debug map-get-deep($map, 'key4', 'nine', 'eight');
+// @debug map-get-deep($map, 'key4', 'nine', 'eight');
 
 @debug $map;
 $map: map-set-deep($map, ('key3' 'baz' 'waldo'), "molly");
 $map: map-set-deep($map, ('key3' 'baz' 'qux'), 'quark');
 $map: map-set-deep($map, ('key3' 'jedi' 'vader'), 'red');
 $map: map-set-deep($map, ('key3' 'jedi' 'luke'), 'green');
-$map: map-set-deep($map, ('key4' 'nine' 'eight'), 'seven');
+// $map: map-set-deep($map, ('key4' 'nine' 'eight'), 'seven');
 @debug $map;
 
 @import "memo";

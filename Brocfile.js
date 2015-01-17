@@ -5,7 +5,7 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 var app = new EmberApp({
   compassOptions: {
     outputStyle: 'expanded',
-    require: ['sass-css-importer', 'susy', 'breakpoint']
+    require: ['sass-css-importer', 'susy', 'breakpoint', 'sassy-maps']
   }
 });
 
