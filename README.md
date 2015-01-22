@@ -1,53 +1,32 @@
-# Zell
+// All topics related to SUSY file structure can be found -'http://github.com/e-karma/zell.git'  => zell/app/styles/
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Proposed Agenda below.  Items of most importance found at the top of their categories.
+Any experience/thoughts/resources/advice on any of the following helps... 
+There is no expectation to get through all of this, so cherry-pick what you have the least trouble helping with. 
 
-## Prerequisites
+TANGIBLE
+1. Implement Off-Canvas Susy - Ember 
+  -http://www.zell-weekeat.com/off-canvas-layouts-susy/
+2. Fix Map-Get Eror that appears when Zell is installed and running Ember S
+  -Zell/app/styles/lib/bower_components/sassy-maps =>
+3. Implement One Grunt task Runner Experience?  (See Webhook)
+4. How to include Foundation & Bootstrap SASS given this structure? Avoid Name clashes?
 
-You will need the following things properly installed on your computer.
+INTANGIBLE TOPICS -
+1. Watch Ember-Polymer Youtube-- Discuss + decide to go for it or wait.... 
+  -https://www.youtube.com/watch?v=vnCkYuNgRZE
+  -https://www.youtube.com/watch?v=RnXddZWaBiE
+2. Helpers + Mixins Usage?
+3. Managing Style for Component.. Does it leak? 
+4. Best Component Organization/location/import strategy.  
+5. How to connect ember-cli commands + custom scripts to activation through a user-interface?
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+ 
+QUESTIONS  - Discussion/knowledge transfer
+  -How to minimize/prevent Class overlap.. Methods/Strategies for naming? 
+  -Are "Addons" typically a grouping of multiple smaller components?
+  -Feedback/thoughts on site skeleton and Data Modeling Concerns/ Situation? 
 
-## Installation
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
 
-## Running / Development
-
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
